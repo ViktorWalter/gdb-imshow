@@ -236,7 +236,7 @@ class cv_imshow(gdb.Command):
         # Show image.
         img = Image.new(mode, (width, height))
         img.putdata(image_data)
-        img.show()
+        img.show("Image")
 
 
 cv_imshow()
